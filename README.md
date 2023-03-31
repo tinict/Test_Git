@@ -1,2 +1,2 @@
-# HUECIT_Project-_LaptopHouse
+# HUECIT_Project_LaptopHouse
 HUECIT: Project Laptop House 

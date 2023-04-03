@@ -7,11 +7,6 @@ const app = () => {
     return newElement`
         <div class='container'>
             ${Header()}
-            <div class='content'>
-            </div>
-            <footer>
-                
-            </footer>
         </div>
     `
 };

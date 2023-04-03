@@ -6,7 +6,7 @@ HUECIT: Project Laptop House
 ## Yesterday
     - Nội dung
 ## TODAY
-    - `Learning Scrum` link
+    - [`Learning Scrum`] link
         + Part 1: Nội dung
 ## OBSTACLE
     - Chưa có

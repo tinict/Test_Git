@@ -2,8 +2,8 @@
 HUECIT: Project Laptop House 
 >Test
 
-#[TinNguyen-April 3 2023]
-##[Yesterday]
+# TinNguyen-April 3 2023
+## [Yesterday]
     - Nội dung
 ##[TODAY]
     - [`Learning Scrum`] link

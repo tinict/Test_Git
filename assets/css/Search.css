@@ -23,9 +23,9 @@
 }
 
 .Search__box input {
-    width: 380px;
+    width: 400px;
     border-radius: 25px;
-    height: 30px;
+    height: 24px;
     padding-left: 4px;
     border: 0;
     outline: none;

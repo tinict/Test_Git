@@ -1,0 +1,24 @@
+.NavigationBar {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+.Nav__item {
+    padding: 4px;
+}
+
+.Nav__item a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+.Nav__item a .title {
+    font-size: 16px;
+    
+}

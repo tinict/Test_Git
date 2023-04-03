@@ -1,6 +1,6 @@
 "use strict";
 
-const newElement = ([first, ...res], ...val) => {
+export const newElement = ([first, ...res], ...val) => {
     return val.reduce((acc, current) => {
         return acc.concat(current, res.shift());
     }, [first]).filter((fill) => {
@@ -8,12 +8,13 @@ const newElement = ([first, ...res], ...val) => {
     }).join('');
 };
 
-export const Render = (PathTeamplate, Sub, root) =>  {
+export const Render = (PathTeamplate, Sub) =>  {
     let newPath = `View\\${PathTeamplate}\\${Sub}` + '.html';
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) 
-            document.querySelector(root).innerHTML = this.responseText;
+        if (this.readyState == 4 && this.status == 200) {
+            console.log(this.responseText);
+        }    
     };
     xhr.open("GET", newPath, true);
     xhr.send();

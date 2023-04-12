@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+    .Search {
+        width: 32px;
+        height: 38px;
+        padding: 0;
+        border-radius: 0;
+        border: 0;
+        background: #F1F0F1;
+    }
+    .Search__box {
+        width: 100%;
+        justify-content: center !important;
+    }
+    .Search__left {
+        display: none;
+    }
+    .Search__right {
+        width: 24px;
+        height: 24px;
+    }
+}

@@ -1,0 +1,57 @@
+.Menu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    bottom: -110px;
+    background-color: #ffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.Menu__Box {
+    list-style-type: none;
+}
+
+.Menu__Box .MenuItem {
+    font-size: 14px;
+    width: 100%;
+    height: 28px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.Menu__Box .MenuItem a {
+    color: #7d7d7d;
+}
+
+.Menu__Box .MenuItem:first-child:hover {
+    background-color: #f2f2f2;
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important; 
+} 
+
+.Menu__Box .MenuItem:last-child:hover {
+    background-color: #f2f2f2;
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+
+.Menu__Box .MenuItem a {
+    width: 100%;
+    height: 28px;
+    padding-left: 6px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.Menu__Box .MenuItem:hover {
+    background-color: #f2f2f2;
+    border-radius: 0;
+}
+
+.Menu__Box .MenuItem:hover > a{
+    color: #0062ff;
+}

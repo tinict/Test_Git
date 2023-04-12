@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@500&family=Oswald&family=Pacifico&family=Roboto&display=swap');
 :root {
-    --ColorFont: #010101;
+    --ColorFont: rgb(5, 34, 74);
 }
 
 .NavigationBar {
@@ -13,11 +13,20 @@
 }
 
 .Nav__item {
+    position: relative;
     height: 38px;
     display: flex;
     align-items: center;
     flex-direction: row;
     margin: 8px;
+}
+
+.Nav__item:hover a .fill, .Nav__item:hover a .title {
+    color: rgb(235, 39, 39);
+} 
+
+.Nav__item:nth-child(2):hover > .Menu {
+    display: block !important;
 }
 
 .Nav__item a{
@@ -35,17 +44,16 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-right: 6px;
+    margin-right: 4px;
 }
 
 .Nav__item a .fas {
-    width: 18px;
-    height: 16px;
+    font-size: 14px;
     color: var(--ColorFont);
 }
 
 .Nav__item a .title {
-    font-size: 12px;
+    font-size: 11px;
     font-family: roboto, sans-serif;
     color: var(--ColorFont);
     font-weight: 600;

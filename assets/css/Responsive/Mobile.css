@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+    .mod_header {
+        width: 100%;
+    }
+    .NavigationBar {
+        display: none;
+    }
+}

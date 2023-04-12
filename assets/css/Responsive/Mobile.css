@@ -1,8 +1,39 @@
 @media (max-width: 768px) {
     .mod_header {
+        padding: 0 8px;
         width: 100%;
+    }
+    .mod_header .avatar {
+        width: auto;
+    }
+    .mod_header .userName {
+        display: none;
+    }
+    .header__brand {
+        display: none;
     }
     .NavigationBar {
         display: none;
+    }
+    
+    .header__center .header__brand {
+        display: flex !important;
+    }
+    .header__center .Search {
+        display: none !important;
+    }
+    
+    .sub_header {
+        width: 100%;
+        padding: 0 8px;
+        height: 48px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .sub_header .Search {
+        height: 40px;
     }
 }

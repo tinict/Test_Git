@@ -43,10 +43,14 @@ header {
 
 .header__left {
     display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .header__right {
     display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .header__center {
@@ -55,8 +59,16 @@ header {
     align-items: center;
 }
 
+.header__center .header__brand {
+    display: none;
+}
+
 .header__container {
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+.sub_header {
+    display: none;
 }
